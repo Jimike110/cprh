@@ -1,0 +1,23 @@
+body{
+  background-color: rgba(255, 244, 0, 0.4)
+}
+.auth-img{
+  border-radius: 22px;
+  margin-top: 20px;
+}
+.auth-header{
+  font-size: 44px;
+  margin-top: 20%;
+  font-weight: 800;
+  text-align: center;
+  
+}
+hr{
+  width: 70%;
+  margin-left: 15%;
+}
+
+h1{
+  font-size: 38px;
+  font-weight: 700;
+}
