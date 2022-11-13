@@ -13,16 +13,16 @@
 
 <body>
   <div class="container">
-    <img src="/CPRHreal1.fw_.png.webp" alt="CPRH and College of Medicine, UI.">
+    <img id="logo" src="/CPRHreal1.fw_.png.webp" alt="CPRH and College of Medicine, UI.">
   </div>
-      
+
   <div class="vision">
     <div id="vision-header"> Our Vision</div>
     <p> To provide utmost healthcare to people, especially, women, children and the less privileged; by ensuring they get the well-being they need and deserve.</p>
   </div>
   <div class="vision">
     <div id="vision-header"> Our Mission</div>
-      <p> We will reach out to the less privileged in the rural areas. We will stage enlightenment programmes periodically to educate them. We will provide them with the stuffs they need. </p>
+    <p> We will reach out to the less privileged in the rural areas. We will stage enlightenment programmes periodically to educate them. We will provide them with the stuffs they need. </p>
   </div>
   <div class="vision">
     <div id="vision-header">Our Core Values</div>
@@ -33,7 +33,7 @@
       Enlightenment <br>
       Programmability
     </p>
-      
+
   </div>
   <div class="footer"></div>
   <!--<div class="row">
@@ -46,30 +46,32 @@ mail
       <span class="material-symbols-outlined"></span> 
     </div>
   </div>-->
-  
+
   <div class="container" id="contact-form">
     <span class="contact">Contact Us:</span>
-    <div class="input-group form-input">
-      <div class="input-group-append append">
-      <span class="input-group-text" id="form-style-name">Full name</span>
-      </div>
-      <input type="text" name="input-text" placeholder="e.g. John Doe" class="form-control" id="form-input-style-name"></input>
-    </div>
-    
+    <form action="submit" method="post">
       <div class="input-group form-input">
-      <div class="input-group-append append">
-      <span class="input-group-text" id="form-style">Email</span>
+        <div class="input-group-append append">
+          <span class="input-group-text" id="form-style-name">Full name</span>
+        </div>
+        <input type="text" name="input-text" placeholder="e.g. John Doe" class="form-control" id="form-input-style-name"></input>
       </div>
-      <input type="email" name="input-email" placeholder="e.g. me@example.com" class="form-control" id="form-input-style"></input>
-    </div>
-    
+
       <div class="input-group form-input">
-      <div class="input-group-append append">
-      <span class="input-group-text" id="form-style-last">Password</span>
+        <div class="input-group-append append">
+          <span class="input-group-text" id="form-style">Email</span>
+        </div>
+        <input type="email" name="input-email" placeholder="e.g. me@example.com" class="form-control" id="form-input-style"></input>
       </div>
-      <input type="password" name="input-password" placeholder="Enter a strong password" class="form-control form-input" id="form-input-style-last"></input>
-    </div>
-    <button type="submit" class="btn btn-primary btn-success btn-block" id="submit">Submit</button>
+
+      <div class="input-group form-input">
+        <div class="input-group-append append">
+          <span class="input-group-text" id="form-style-last">Password</span>
+        </div>
+        <input type="password" name="input-password" placeholder="Enter a strong password" class="form-control form-input" id="form-input-style-last"></input>
+      </div>
+      <button type="submit" class="btn btn-primary btn-success btn-block" id="submit-button">Submit</button>
+    </form>
   </div>
 </body>
 
