@@ -1,23 +1,110 @@
-body{
-  background-color: rgba(255, 244, 0, 0.4)
-}
-.auth-img{
-  border-radius: 22px;
-  margin-top: 20px;
-}
-.auth-header{
-  font-size: 44px;
-  margin-top: 20%;
-  font-weight: 800;
-  text-align: center;
-  
-}
-hr{
-  width: 70%;
-  margin-left: 15%;
+body {
+  background-color: darkgreen;
 }
 
-h1{
-  font-size: 38px;
+#logo {
+  margin-top: 10px;
+}
+
+.vision {
+  background-color: white;
+}
+#vision-header {
+  background-color: red;
+  text-align: center;
+  color: white;
+  font-size: 40px;
   font-weight: 700;
+}
+
+p {
+  text-align: center;
+  font-size: 30px;
+  padding: 10px;
+}
+
+.footer {
+  height: 10px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  background-color: red;
+}
+
+.form-input {
+  border-radius: 22px;
+  margin-bottom: 8px;
+}
+
+.append {
+  width: 100px;
+}
+
+#form-style-name {
+  background-color: red;
+  color: white;
+  font-size: 17px;
+  border-top-left-radius: 30px;
+  font-weight: 600;
+}
+
+#form-style {
+  background-color: red;
+  color: white;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+#form-style-last {
+  background-color: red;
+  color: white;
+  font-size: 17px;
+  border-bottom-left-radius: 30px;
+  font-weight: 600;
+}
+
+#form-input-style-last {
+  border-bottom-right-radius: 30px;
+  border-color: red;
+
+}
+
+#form-input-style {
+  border-color: red;
+}
+
+#form-input-style-name {
+  border-top-right-radius: 30px;
+  border-color: red;
+}
+
+.contact {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+#contact-form {
+  margin-bottom: 20px;
+}
+
+img {
+  max-width: 100%
+}
+
+#submit-button {
+  background-color: red;
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  border-radius: 15px;
+  margin-bottom: 30px;
+
+}
+#social-icons{
+  width: 2em;
+}
+#we-social{
+  font-size: 20px;
+  color: red;
+  line-height: 20px;
+  padding-left: 5%;
 }
