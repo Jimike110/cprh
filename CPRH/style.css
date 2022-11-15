@@ -99,3 +99,12 @@ img {
   margin-bottom: 30px;
 
 }
+#social-icons{
+  width: 2em;
+}
+#we-social{
+  font-size: 20px;
+  color: red;
+  line-height: 20px;
+  padding-left: 5%;
+}
