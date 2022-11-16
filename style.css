@@ -163,3 +163,12 @@ img {
 #logo-contain{
   margin-bottom: 20px;
 }
+.footer-bottom{
+  background-color: red;
+  color: white;
+  height: 35px;
+  padding-top: 3px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 13px;
+  text-align: center;
+}
