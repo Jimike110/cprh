@@ -9,6 +9,12 @@
   <link rel="stylesheet" href="bootstrap@5.0.0-alpha2.min.css">
   <link rel="stylesheet" href="chartist.min.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -17,76 +23,77 @@
   </div>
 
   <div class="vision">
-    <div id="vision-header"> Our Vision</div>
-    <p> To provide utmost healthcare to people, especially, women, children and the less privileged; by ensuring they get the well-being they need and deserve.</p>
+    <div id="vision-header"> Vision Statement</div>
+    <p id="vision-statement">Equity in Health and Development for All </p>
   </div>
   <div class="vision">
-    <div id="vision-header"> Our Mission</div>
-    <p> We will reach out to the less privileged in the rural areas. We will stage enlightenment programmes periodically to educate them. We will provide them with the stuffs they need. </p>
+    <div id="vision-header">Mission Statement</div>
+    <p id="mission-statement"> To support and strengthen the health and well-being of families, especially women, newborns, children and the vulnerable; to achieve the best quality of life they desire and deserve by developing and promoting best practices delivered through inclusive knowledge sharing, research and effective programming. </p>
   </div>
   <div class="vision">
-    <div id="vision-header">Our Core Values</div>
+    <div id="vision-header">Core Values</div>
     <p id="core-values">
       Equity <br>
       Integrity <br>
-      Perseverance <br>
-      Enlightenment <br>
-      Programmability
+      Excellence <br>
+      Partnership <br>
+      Empowerment
     </p>
 
   </div>
   <div class="footer"></div>
 
-<div class="container logo-contain" id="logo-contain">
-  <div class="row">
-    <div class="col-2" id="we-social">Follow Us!</div>
-    <div class="col-2">
-      <a href="https://facebook.com/cprhui/"> <img id="social-icons" src="facebook.svg" alt="facebook"></a>
-    </div>
-    <div class="col-2">
-      <a href="https://instagram.com/cprhibadan"> <img id="social-icons" src="instagram.svg" alt="instagram"></a>
+  <div class="container logo-contain" id="logo-contain">
+    <div class="row">
+      <div class="col-2" id="we-social">Follow Us!</div>
 
-    </div>
+      <div class="col-2">
+        <a href="https://facebook.com/cprhui/"> <img id="social-icons" src="facebook.svg" alt="facebook"></a>
+      </div>
+      <div class="col-2">
+        <a href="https://instagram.com/cprhibadan"> <img id="social-icons" src="instagram.svg" alt="instagram"></a>
 
-    <div class="col-2">
-     <a href="mailto:admin@cprh.org.ng"><img id="social-icons" src="envelope-regular.svg" alt="email"></a>
+      </div>
 
-    </div>
+      <div class="col-2">
+        <a href="mailto:admin@cprh.org.ng"><img id="social-icons" src="envelope-regular.svg" alt="email"></a>
 
-    <div class="col-2">
-      <a href="https://twitter.com/cprh5"><img id="social-icons" src="twitter.svg" alt="twitter"></a>
+      </div>
 
-    </div>
+      <div class="col-2">
+        <a href="https://twitter.com/cprh5"><img id="social-icons" src="twitter.svg" alt="twitter"></a>
 
-    <div class="col-2">
-      <a href="https://www.cprh.org.ng"><img id="social-icons" src="globe-solid.svg" alt="website"></a>
+      </div>
+
+      <div class="col-2">
+        <a href="https://www.cprh.org.ng"><img id="social-icons" src="globe-solid.svg" alt="website"></a>
+      </div>
     </div>
   </div>
-</div>
-
+  <div class="footer2"></div>
 
   <div class="container" id="contact-form">
-    <span class="contact">Contact Us:</span>
+    <span class="contact">Have a message?</span>
     <form action="submit" method="post">
       <div class="input-group form-input">
         <div class="input-group-append append">
-          <span class="input-group-text" id="form-style-name">Full name</span>
+          <span class="input-group-text" id="form-style-name">Full name:</span>
         </div>
         <input type="text" name="input-text" placeholder="e.g. John Doe" class="form-control" id="form-input-style-name"></input>
       </div>
 
       <div class="input-group form-input">
         <div class="input-group-append append">
-          <span class="input-group-text" id="form-style">Email</span>
+          <span class="input-group-text" id="form-style">Email:</span>
         </div>
         <input type="email" name="input-email" placeholder="e.g. me@example.com" class="form-control" id="form-input-style"></input>
       </div>
 
       <div class="input-group form-input">
         <div class="input-group-append append">
-          <span class="input-group-text" id="form-style-last">Password</span>
+          <span class="input-group-text" id="form-style-last">Enter <br>Your<br> Message:</span>
         </div>
-        <input type="password" name="input-password" placeholder="Enter a strong password" class="form-control form-input" id="form-input-style-last"></input>
+        <textarea class="form-control form-input" name="message" id="form-input-style-last" cols="50" rows="4"></textarea>
       </div>
       <button type="submit" class="btn btn-primary btn-success btn-block" id="submit-button">Submit</button>
     </form>

@@ -9,12 +9,31 @@ body {
 .vision {
   background-color: white;
 }
+#vision-statement{
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  font-weight: 600;
+  font-family: 'Montserrat', sans-serif;
+}
+#mission-statement{
+  font-weight: 600;
+  font-family: 'Montserrat', sans-serif;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+#core-values{
+  font-weight: 600;
+  font-family: 'Montserrat', sans-serif;
+}
 #vision-header {
   background-color: red;
+  margin-top: 5px;
   text-align: center;
   color: white;
   font-size: 40px;
   font-weight: 700;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 p {
@@ -26,6 +45,13 @@ p {
 .footer {
   height: 10px;
   margin-top: 15px;
+  margin-bottom: 10px;
+  background-color: red;
+}
+
+.footer2 {
+  height: 10px;
+  margin-top: -12px;
   margin-bottom: 10px;
   background-color: red;
 }
@@ -42,48 +68,57 @@ p {
 #form-style-name {
   background-color: red;
   color: white;
-  font-size: 17px;
+  font-size: 16px;
   border-top-left-radius: 30px;
   font-weight: 600;
+  font-family: 'Montserrat', sans-serif;
 }
 
 #form-style {
   background-color: red;
   color: white;
-  font-size: 17px;
+  font-size: 16px;
   font-weight: 600;
+  font-family: 'Montserrat', sans-serif;
 }
 
 #form-style-last {
   background-color: red;
   color: white;
-  font-size: 17px;
+  font-size: 16px;
   border-bottom-left-radius: 30px;
   font-weight: 600;
+  font-family: 'Montserrat', sans-serif;
+  height: 110px;
 }
 
 #form-input-style-last {
   border-bottom-right-radius: 30px;
   border-color: red;
+  color: black;
 
 }
 
 #form-input-style {
   border-color: red;
+  color: black;
 }
 
 #form-input-style-name {
   border-top-right-radius: 30px;
   border-color: red;
+  color: black;
 }
 
 .contact {
   font-size: 30px;
   font-weight: 600;
+  font-family: 'Montserrat', sans-serif;
 }
 
 #contact-form {
   margin-bottom: 20px;
+  font-family: 'Montserrat', sans-serif;
 }
 
 img {
@@ -96,6 +131,7 @@ img {
   font-size: 20px;
   font-weight: 500;
   border-radius: 15px;
+  font-family: 'Montserrat', sans-serif;
   margin-bottom: 30px;
 
 }
@@ -104,7 +140,17 @@ img {
 }
 #we-social{
   font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
   color: red;
   line-height: 20px;
   padding-left: 5%;
+  
+}
+.line{
+  border-right: 4px red solid;
+  margin-left: 50px;
+  height: 70px;
+}
+#logo-contain{
+  margin-bottom: 20px;
 }
