@@ -95,6 +95,9 @@ p {
 #form-input-style-last {
   border-bottom-right-radius: 30px;
   border-color: red;
+  border-top-left-radius: 4px;
+  margin-left: 3px;
+  border-bottom-left-radius: 4px;
   color: black;
 
 }
@@ -102,12 +105,18 @@ p {
 #form-input-style {
   border-color: red;
   color: black;
+  border-top-left-radius: 4px;
+  margin-left: 3px;
+  border-bottom-left-radius: 4px;
 }
 
 #form-input-style-name {
   border-top-right-radius: 30px;
   border-color: red;
   color: black;
+  border-top-left-radius: 4px;
+  margin-left: 3px;
+  border-bottom-left-radius: 4px;
 }
 
 .contact {
