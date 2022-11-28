@@ -9,23 +9,27 @@ body {
 .vision {
   background-color: white;
 }
-#vision-statement{
+
+#vision-statement {
   padding-left: 20px;
   padding-right: 20px;
   padding-bottom: 10px;
   font-weight: 600;
   font-family: 'Montserrat', sans-serif;
 }
-#mission-statement{
+
+#mission-statement {
   font-weight: 600;
   font-family: 'Montserrat', sans-serif;
   padding-left: 15px;
   padding-right: 15px;
 }
-#core-values{
+
+#core-values {
   font-weight: 600;
   font-family: 'Montserrat', sans-serif;
 }
+
 #vision-header {
   background-color: red;
   margin-top: 5px;
@@ -144,26 +148,31 @@ img {
   margin-bottom: 30px;
 
 }
-#social-icons{
+
+#social-icons {
   width: 2em;
 }
-#we-social{
+
+#we-social {
   font-size: 20px;
   font-family: 'Montserrat', sans-serif;
   color: red;
   line-height: 20px;
   padding-left: 5%;
-  
+
 }
-.line{
+
+.line {
   border-right: 4px red solid;
   margin-left: 50px;
   height: 70px;
 }
-#logo-contain{
+
+#logo-contain {
   margin-bottom: 20px;
 }
-.footer-bottom{
+
+.footer-bottom {
   background-color: red;
   color: white;
   height: 35px;
